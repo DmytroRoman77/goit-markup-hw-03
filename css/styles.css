@@ -30,8 +30,7 @@ position: absolute;
 width: 1px; height: 1px; margin: -1px;
 border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%);
 clip: rect(0 0 0 0);
-overflow: hidden;
-margin-bottom: 8px }
+overflow: hidden;}
 /* Header */
 .header-container{
     display: flex;
@@ -215,6 +214,7 @@ margin-left: auto;
     font-weight: 500;
     line-height: 24px; 
     letter-spacing: 0.4px;
+    margin-bottom: 8px 
 }
 .list-item-text {
     color: #434455;
