@@ -11,6 +11,10 @@ ul,ol {
     padding: 0;
     margin: 0;
 }
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;}
 h1,h2,h3,
 p {
 margin: 0;
@@ -21,11 +25,6 @@ img {
     height: auto;
 }
 /* Header */
-.container {
-    width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
 .header-container{
     display: flex;
     align-items: center;}
@@ -86,21 +85,19 @@ margin-left: auto;
     color: #404BBF;
 }
 /* Main content */
-.title-site-container {
-    background: #2E2F42;
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0;
-    flex-shrink: 0;   
+.title-site {
+    background-color: #2E2F42;
+    padding: 188px 0;
 }
 .slogan {
     color:#FFF;
+    margin: 0 auto;
+    max-width: 496px;
     text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 1.12px;
-    padding: 188px 472px 292px 472px;
 }
 .button {
     font-family: inherit;
@@ -111,13 +108,13 @@ margin-left: auto;
     letter-spacing: 0.04em;
     font-size: 16px;
     cursor: pointer;
-    display: flex;
+    display: block;
     width: 169px;
-    padding: 16px 32px;
+    height: 56px;
     align-items: flex-start;
-    gap: 10px;
+    margin: 0 auto;
+    margin-top: 48px;
     border-radius: 4px;
-    background: #4D5AE5;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .button:hover,
@@ -164,9 +161,6 @@ margin-left: auto;
 }
 .box-team {
     background: #F4F4FD;
-}
-.box-team-container {
-height: 732px;
 }
 .list-box-team {
     display: flex;
@@ -266,13 +260,10 @@ letter-spacing: 0.32px;
 background: lightgray -25.026px 0px / 125% 100% no-repeat;
 }
 /* Footer */
-.footer-container {
-    width: 1440px;
-    height: 312px;
-    flex-shrink: 0;
-}
 .footer {
     background: #2E2F42;
+    padding-top: 101.5px;
+    padding-bottom: 100px;
 }
 .text-footer {
     color: #F4F4FD;
@@ -281,19 +272,7 @@ background: lightgray -25.026px 0px / 125% 100% no-repeat;
     letter-spacing: 0.32px;
     width: 264px;
     display: flex;
-    padding-top: 140px;
-    padding-right: 1020px;
-    padding-bottom: 100px;
-    padding-left: 150px;
-}
-.logo-footer {
-    color: #4D5AE5;
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17; 
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
+    padding-top: 16px;
 }
 .logo-part-footer {
     color: #F4F4FD;
