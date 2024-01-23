@@ -30,7 +30,8 @@ position: absolute;
 width: 1px; height: 1px; margin: -1px;
 border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%);
 clip: rect(0 0 0 0);
-overflow: hidden; }
+overflow: hidden;
+margin-bottom: 8px }
 /* Header */
 .header-container{
     display: flex;
@@ -269,6 +270,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.4px;
+margin-bottom: 8px;
 }
 .list-item-project-text {
 color: #434455;
@@ -311,6 +313,15 @@ background: lightgray -25.026px 0px / 125% 100% no-repeat;
     text-transform: uppercase;
     width: 71px;
     height: 21px;
+}
+.logo-footer {
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17; 
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
     display: inline-block;
     margin-bottom: 16px;
 }
