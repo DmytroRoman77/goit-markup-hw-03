@@ -229,10 +229,6 @@ margin-left: auto;
     padding-top: 120px; 
     padding-bottom: 120px;
 }
-.list-box-portfolio {
-    column-gap: 24px;
-    row-gap: 48px;
-}
 .title-portfolio {
     color:  #2E2F42;
     text-align: center;
@@ -245,13 +241,15 @@ margin-left: auto;
     margin-bottom: 72px;
 }
 .list-box-portfolio {
-background: #FFF;
-display: flex;
-flex-wrap: wrap;
-gap: 32px;
-border: 1px solid #E7E9FC;
-background: #FFF;
-padding-bottom: 120px;
+    background: #FFF;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    border: 1px solid #E7E9FC;
+    background: #FFF;
+    padding-bottom: 120px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 .list-item-portf {
 background: #FFF;
